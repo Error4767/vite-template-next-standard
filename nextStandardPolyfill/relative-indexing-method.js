@@ -11,11 +11,13 @@ function at(n) {
 
 // Other TypedArray constructors omitted for brevity.
 for (let C of [Array, String, Uint8Array]) {
-  Object.defineProperty(C.prototype, "at",
-    {
-      value: at,
-      writable: true,
-      enumerable: false,
-      configurable: true
-    });
+  if (!C.prototype.at) {
+    Object.defineProperty(C.prototype, "at",
+      {
+        value: at,
+        writable: true,
+        enumerable: false,
+        configurable: true
+      });
+  }
 }

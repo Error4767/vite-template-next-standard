@@ -5,23 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-syntax-import-assertions": "^7.16.5",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-preset-env": "^7.0.1",
-    "vite": "^2.7.2"
+    "@babel/plugin-syntax-import-assertions": "^7.18.6",
+    "postcss-preset-env": "^7.7.2",
+    "vite": "^2.9.13"
   },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@rollup/plugin-babel": "^5.3.0",
-    "array.prototype.findlast": "^1.1.1",
-    "array.prototype.findlastindex": "^1.1.1",
-    "core-js": "^3.20.0",
-    "proposal-temporal": "^0.8.0"
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.18.6",
+    "@js-temporal/polyfill": "^0.4.1",
+    "@rollup/plugin-babel": "^5.3.1",
+    "array.prototype.findlast": "^1.2.1",
+    "array.prototype.findlastindex": "^1.2.1",
+    "core-js": "^3.23.3"
   }
 }
