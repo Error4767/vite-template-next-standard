@@ -11,17 +11,17 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-syntax-import-assertions": "^7.18.6",
-    "postcss-preset-env": "^7.7.2",
-    "vite": "^2.9.13"
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "postcss-preset-env": "^7.8.2",
+    "vite": "^3.2.3"
   },
   "dependencies": {
-    "@babel/core": "^7.18.6",
-    "@babel/plugin-proposal-decorators": "^7.18.6",
-    "@js-temporal/polyfill": "^0.4.1",
-    "@rollup/plugin-babel": "^5.3.1",
-    "array.prototype.findlast": "^1.2.1",
-    "array.prototype.findlastindex": "^1.2.1",
-    "core-js": "^3.23.3"
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@js-temporal/polyfill": "^0.4.3",
+    "@rollup/plugin-babel": "^6.0.2",
+    "array.prototype.findlast": "^1.2.2",
+    "array.prototype.findlastindex": "^1.2.2",
+    "core-js": "^3.26.0"
   }
 }
