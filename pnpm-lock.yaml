@@ -5,23 +5,31 @@ specifiers:
   '@babel/plugin-proposal-decorators': ^7.20.13
   '@babel/plugin-syntax-import-assertions': ^7.20.0
   '@js-temporal/polyfill': ^0.4.3
+  '@rauschma/iterator-helpers-polyfill': ^0.7.0
+  '@rauschma/set-methods-polyfill': ^0.1.0
   '@rollup/plugin-babel': ^6.0.3
   array-from-async: ^3.0.0
   array.prototype.findlast: ^1.2.2
   array.prototype.findlastindex: ^1.2.2
   core-js: ^3.27.2
   postcss-preset-env: ^8.0.1
+  string.prototype.iswellformed: ^1.0.0
+  string.prototype.towellformed: ^1.0.0
   vite: ^4.0.4
 
 dependencies:
   '@babel/core': 7.20.12
   '@babel/plugin-proposal-decorators': 7.20.13_@babel+core@7.20.12
   '@js-temporal/polyfill': 0.4.3
+  '@rauschma/iterator-helpers-polyfill': 0.7.0
+  '@rauschma/set-methods-polyfill': 0.1.0
   '@rollup/plugin-babel': 6.0.3_@babel+core@7.20.12
   array-from-async: 3.0.0
   array.prototype.findlast: 1.2.2
   array.prototype.findlastindex: 1.2.2
   core-js: 3.27.2
+  string.prototype.iswellformed: 1.0.0
+  string.prototype.towellformed: 1.0.0
 
 devDependencies:
   '@babel/plugin-syntax-import-assertions': 7.20.0_@babel+core@7.20.12
@@ -767,6 +775,14 @@ packages:
     dependencies:
       jsbi: 4.3.0
       tslib: 2.4.0
+    dev: false
+
+  /@rauschma/iterator-helpers-polyfill/0.7.0:
+    resolution: {integrity: sha512-2MmPm5q/NN/gLx0eRMG1T2FVMBDBap6K9C3dc6vqmK84Gxri350xifAn1GgMAxs0vPX3L1bQbicWfMKWYbh2GQ==}
+    dev: false
+
+  /@rauschma/set-methods-polyfill/0.1.0:
+    resolution: {integrity: sha512-YeboVhjxE5oCy7yc/u49yBV4GDfDWPJ4W5cvXsaHAr4Aj/6Js6ty1c6NhR2QvkF5cs952HyvIThcMcSSSINkxQ==}
     dev: false
 
   /@rollup/plugin-babel/6.0.3_@babel+core@7.20.12:
@@ -1658,6 +1674,22 @@ packages:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /string.prototype.iswellformed/1.0.0:
+    resolution: {integrity: sha512-DW5askQcDwEXW2qyDIlr9xwxw/ZpD2VlqoGIH0OVe2gAvJatMIMeVtrhnEJSVXYg5933pkrr6pn8qMJdiBFOcA==}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.1.4
+      es-abstract: 1.20.4
+    dev: false
+
+  /string.prototype.towellformed/1.0.0:
+    resolution: {integrity: sha512-W98IPYw6xG7OhGvwihHarFXHX4ziKrIEN7rgCzxHx2XyTBOzZ7J7Q4pgIn1CpudYVLqlTb7x9wxQHr9GWxVwKA==}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.1.4
+      es-abstract: 1.20.4
+    dev: false
 
   /string.prototype.trimend/1.0.5:
     resolution: {integrity: sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==}
