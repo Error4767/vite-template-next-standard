@@ -12,16 +12,17 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
-    "postcss-preset-env": "^7.8.2",
-    "vite": "^3.2.3"
+    "postcss-preset-env": "^8.0.1",
+    "vite": "^4.0.4"
   },
   "dependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-proposal-decorators": "^7.20.13",
     "@js-temporal/polyfill": "^0.4.3",
-    "@rollup/plugin-babel": "^6.0.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "array-from-async": "^3.0.0",
     "array.prototype.findlast": "^1.2.2",
     "array.prototype.findlastindex": "^1.2.2",
-    "core-js": "^3.26.0"
+    "core-js": "^3.27.2"
   }
 }
