@@ -22,9 +22,6 @@
     "@rauschma/iterator-helpers-polyfill": "^0.7.0",
     "@rauschma/set-methods-polyfill": "^0.1.0",
     "@rollup/plugin-babel": "^6.0.3",
-    "array-from-async": "^3.0.0",
-    "array.prototype.findlast": "^1.2.2",
-    "array.prototype.findlastindex": "^1.2.2",
     "core-js": "^3.27.2",
     "string.prototype.iswellformed": "^1.0.0",
     "string.prototype.towellformed": "^1.0.0"
