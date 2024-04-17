@@ -11,19 +11,16 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-syntax-import-assertions": "^7.20.0",
-    "postcss-preset-env": "^8.0.1",
-    "vite": "^4.0.4"
+    "@babel/plugin-syntax-import-assertions": "^7.24.1",
+    "postcss-preset-env": "^9.5.5",
+    "vite": "^5.2.9"
   },
   "dependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/plugin-proposal-decorators": "^7.20.13",
-    "@js-temporal/polyfill": "^0.4.3",
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-decorators": "^7.24.1",
+    "@js-temporal/polyfill": "^0.4.4",
     "@rauschma/iterator-helpers-polyfill": "^0.7.0",
-    "@rauschma/set-methods-polyfill": "^0.1.0",
-    "@rollup/plugin-babel": "^6.0.3",
-    "core-js": "^3.27.2",
-    "string.prototype.iswellformed": "^1.0.0",
-    "string.prototype.towellformed": "^1.0.0"
+    "@rollup/plugin-babel": "^6.0.4",
+    "core-js": "^3.37.0"
   }
 }
