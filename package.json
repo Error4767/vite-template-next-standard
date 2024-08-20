@@ -21,6 +21,7 @@
     "@js-temporal/polyfill": "^0.4.4",
     "@rauschma/iterator-helpers-polyfill": "^0.7.0",
     "@rollup/plugin-babel": "^6.0.4",
-    "core-js": "^3.37.0"
+    "core-js": "^3.37.0",
+    "promise.try": "^2.0.0"
   }
 }
